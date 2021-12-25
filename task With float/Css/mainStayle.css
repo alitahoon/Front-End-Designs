@@ -170,6 +170,7 @@ body {
     height: 150px;
     bottom: 0px;
     text-align: center;
+    padding: 20px;
           
 }
 .fas{
@@ -178,11 +179,22 @@ body {
 .skills h3,.langauge h3{
     font-weight: 400;
 }
-.Footer {
-}
-.Footer ul li{
+.Footer ul li ,.Footer ul li {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    float: left;
+    text-align: center;
+    margin-left: 44%;
+    font-size: 22px;
 }
+.Footer ul li i{
+    float: left;
+    color: black;
+    text-decoration: none;
+    padding-left:5px ;
+    cursor: pointer;
+}
+.Footer ul li i:hover{
+    color: #EEE;
+}
+
